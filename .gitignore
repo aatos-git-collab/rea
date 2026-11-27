@@ -28,6 +28,12 @@ env/
 .factory/
 codedb.snapshot
 
+# Local host toolchain (Node.js, procps, npm cache, agent-env) installed for this checkout
+/toolchain/
+
+# Scratch embedded-postgres data dir used by concurrent projects on this host
+/pgtest/
+
 # Testing
 .pytest_cache/
 htmlcov/
