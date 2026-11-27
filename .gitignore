@@ -83,3 +83,9 @@ Thumbs.db
 website/_site/
 # Temporary translation output prepared before replacing the complete site.
 website/.i18n-*/
+
+# Build verification evidence (regenerable via next build)
+/build-verify.log
+
+# Local build scratch (fontconfig/camoufox caches)
+/tmp/
